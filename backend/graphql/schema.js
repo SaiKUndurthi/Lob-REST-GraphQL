@@ -94,7 +94,7 @@ const mutation = new GraphQLObjectType({
 		},
 
 		//Permanently deletes a customer. It cannot be undone.
-		deleteArtistById:{
+		deleteAddressById:{
 			type: AddressType,
 			args:{
 				id: {type: new GraphQLNonNull(GraphQLString)}
